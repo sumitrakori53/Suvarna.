@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Suvarna Tutoring</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:linear-gradient(to right,#4CAF50,#2E8B57);
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#333;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.banner{
+background:url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b");
+background-size:cover;
+height:320px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:darkblue;
+font-size:40px;
+font-weight:bold;
+}
+
+.container{
+padding:30px;
+text-align:center;
+}
+
+.subjects{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:200px;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+form{
+background:white;
+width:320px;
+margin:auto;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+}
+
+input,select,textarea{
+width:100%;
+padding:8px;
+margin:8px 0;
+}
+
+button{
+background:#4CAF50;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+font-size:16px;
+cursor:pointer;
+}
+
+.contact-box{
+background:white;
+width:400px;
+margin:auto;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+}
+
+.feedback-box{
+background:white;
+padding:10px;
+margin:10px;
+border-radius:8px;
+box-shadow:0 0 5px gray;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:12px;
+margin-top:30px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:30px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Suvarna Tutoring</h1>
+<p>Best Coaching for Class 6 to 10 Students</p>
+<p>📞 Contact: <a href="tel:9399376723" style="color:white;">9399376723</a></p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#subjects">Subjects</a>
+<a href="#contact">Contact</a>
+<a href="#feedback">Feedback</a>
+</nav>
+
+<div class="banner">
+Learn • Grow • Succeed
+</div>
+
+<div class="container" id="about">
+
+<h2>About Suvarna Tutoring</h2>
+
+<p>
+Suvarna Tutoring provides quality education for students from 
+<b>Class 6 to Class 10</b>. We focus on concept clarity,
+exam preparation, and personal attention.
+</p>
+
+<p>
+✔ Small Batch Size <br>
+✔ Weekly Tests <br>
+✔ Doubt Solving Sessions <br>
+✔ Experienced Teaching
+</p>
+
+</div>
+
+<div class="container" id="subjects">
+
+<h2>Subjects We Teach</h2>
+
+<div class="subjects">
+
+<div class="card">
+<h3>Mathematics</h3>
+<p>Concept clarity and problem solving.</p>
+</div>
+
+<div class="card">
+<h3>Science</h3>
+<p>Physics, Chemistry and Biology basics.</p>
+</div>
+
+<div class="card">
+<h3>English</h3>
+<p>Grammar and writing skills.</p>
+</div>
+
+<div class="card">
+<h3>Social Studies</h3>
+<p>History, Geography and Civics.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<h2>Student Registration</h2>
+
+<form>
+
+<label>Student Name</label>
+<input type="text" required>
+
+<label>Class</label>
+<select>
+<option>Class 6</option>
+<option>Class 7</option>
+<option>Class 8</option>
+<option>Class 9</option>
+<option>Class 10</option>
+</select>
+
+<label>Mobile Number</label>
+<input type="text" required>
+
+<label>Parent Name</label>
+<input type="text">
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+
+<div class="container" id="contact">
+
+<h2>Connect With Us</h2>
+
+<div class="contact-box">
+
+
+
+<p><b>Phone:</b>
+<a href="tel:9399376723">📞 Call Now (9399376723)</a>
+</p>
+
+<p><b>WhatsApp:</b>
+<a href="https://wa.me/919399376723" target="_blank">
+💬 Chat on WhatsApp
+</a>
+</p>
+
+<p><b>Email:</b>
+<a href="mailto:suvarnakori3@gmail.com">
+📧 suvarnakori3@gmail.com
+</a>
+</p>
+
+<p><b>Address:</b><br>
+Near E-Library,<br>
+Nutan Chowk, Sarkanda,<br>
+Bilaspur (C.G) – 495001
+</p>
+
+
+
+</div>
+
+</div>
+
+<div class="container" id="feedback">
+
+<h2>Student Feedback</h2>
+
+<form id="feedbackForm">
+
+<label>Your Name</label>
+<input type="text" id="name" required>
+
+<label>Class</label>
+<select id="class">
+<option>Class 6</option>
+<option>Class 7</option>
+<option>Class 8</option>
+<option>Class 9</option>
+<option>Class 10</option>
+</select>
+
+<label>Your Feedback</label>
+<textarea id="message" rows="4"></textarea>
+
+<button type="submit">Submit Feedback</button>
+
+</form>
+
+<h3>What Students Say</h3>
+
+<div id="feedbackDisplay"></div>
+
+</div>
+
+<footer>
+<p>© 2026 Suvarna Tutoring | All Rights Reserved</p>
+</footer>
+
+<a href="https://wa.me/919399376723" class="whatsapp" target="_blank">💬</a>
+
+<script>
+
+document.getElementById("feedbackForm").addEventListener("submit", function(event){
+
+event.preventDefault();
+
+let name=document.getElementById("name").value;
+let studentClass=document.getElementById("class").value;
+let message=document.getElementById("message").value;
+
+let box=document.createElement("div");
+box.className="feedback-box";
+
+box.innerHTML="<b>Name:</b> "+name+"<br>"+
+"<b>Class:</b> "+studentClass+"<br>"+
+"<b>Feedback:</b> "+message;
+
+document.getElementById("feedbackDisplay").appendChild(box);
+
+document.getElementById("feedbackForm").reset();
+
+});
+
+</script>
+
+</body>
+</html>
